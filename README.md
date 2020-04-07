@@ -10,11 +10,11 @@ display slashed zero.
 
 JetBrains Mono is developed [on GitHub](https://github.com/JetBrains/JetBrainsMono).
 
-### Installation
+## Installation
 
 Download the `.otf` files and install them on your system manually.
 
-### License
+## License
 
 JetBrains Mono and JetBrains Mono Slashed typefaces are available under the
 [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) and may be
@@ -22,7 +22,7 @@ used free of charge, for both commercial and non-commercial purposes.  You do
 not need to give credit to JetBrains, although they will appreciate it very
 much if you do.
 
-### Credits
+## Credits
 
 **Type designer**\
 Philipp Nurullin
