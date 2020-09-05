@@ -70,7 +70,7 @@ for src in in/*.ttf; do
 done
 
 # -----------------------------------------------------------------------------
-# Phase 2: Output -> Package
+# Phase 3: Output -> Package
 
 # Prepare package directory
 mkdir -p /src/dist
