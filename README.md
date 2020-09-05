@@ -17,6 +17,12 @@ JetBrains Mono is developed [on GitHub](https://github.com/JetBrains/JetBrainsMo
 
 - Extract the `.otf` files therein, and install them on your system manually.
 
+## Building
+
+- Install Docker.
+- Install PowerShell 5.1 or later.
+- Run the `build.ps1` script.
+
 ## License
 
 The code in this repository is available under the
