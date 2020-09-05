@@ -34,6 +34,9 @@ and may be used free of charge, for both commercial and non-commercial
 purposes. You do not need to give credit to JetBrains, although they will
 appreciate it very much if you do. 
 
+JetBrains Mono Slashed uses the OFL Reserved Font Name "JetBrains Mono"
+[with permission](https://github.com/JetBrains/JetBrainsMono/issues/295).
+
 `SPDX-License-Identifier: Apache-2.0`
 
 ## Credits
