@@ -4,7 +4,7 @@ The [JetBrains Mono](https://jetbrains.com/mono) font, with slashed zero made
 the default.
 
 **JetBrains Mono** provides slashed zero as an optional OpenType feature, but
-few programs know how to discover and enable OpenType features.  **JetBrains
+few programs know how to discover and enable OpenType features. **JetBrains
 Mono Slashed** makes the feature enabled by default, so that all programs can
 display slashed zero.
 
@@ -12,15 +12,23 @@ JetBrains Mono is developed [on GitHub](https://github.com/JetBrains/JetBrainsMo
 
 ## Installation
 
-Download the `.otf` files and install them on your system manually.
+- Download the `JetBrainsMonoSlashed-<version>.zip` file from the 
+  [latest release](https://github.com/sharpjs/JetBrainsMonoSlashed/releases/latest).
+
+- Extract the `.otf` files therein, and install them on your system manually.
 
 ## License
 
+`SPDX-License-Identifier: OFL-1.1-RFN`
+
 JetBrains Mono and JetBrains Mono Slashed typefaces are available under the
-[Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) and may be
-used free of charge, for both commercial and non-commercial purposes.  You do
-not need to give credit to JetBrains, although they will appreciate it very
-much if you do.
+[SIL Open Font License v1.1](https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE)
+and may be used free of charge, for both commercial and non-commercial
+purposes. You do not need to give credit to JetBrains, although they will
+appreciate it very much if you do. 
+
+Build scripts for JetBrains Mono Slashed are availabled under the 
+[Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Credits
 
