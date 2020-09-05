@@ -19,7 +19,8 @@ JetBrains Mono is developed [on GitHub](https://github.com/JetBrains/JetBrainsMo
 
 ## License
 
-`SPDX-License-Identifier: OFL-1.1-RFN`
+The code in this repository is available under the
+[Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 JetBrains Mono and JetBrains Mono Slashed typefaces are available under the
 [SIL Open Font License v1.1](https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE)
@@ -27,8 +28,7 @@ and may be used free of charge, for both commercial and non-commercial
 purposes. You do not need to give credit to JetBrains, although they will
 appreciate it very much if you do. 
 
-Build scripts for JetBrains Mono Slashed are availabled under the 
-[Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0).
+`SPDX-License-Identifier: Apache-2.0`
 
 ## Credits
 
