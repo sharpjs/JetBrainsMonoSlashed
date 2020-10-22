@@ -49,7 +49,7 @@ echo "Downloading $SRC_URL"
 
 # Unpack source
 echo "Unpacking $SRC_ZIP"
-unzip -j "$SRC_ZIP" "*.ttf" LICENSE
+unzip -j "$SRC_ZIP" "*.ttf" "*.txt"
 
 # -----------------------------------------------------------------------------
 # Phase 2: Input -> Output
@@ -59,7 +59,8 @@ mkdir -p /build/out
 cd /build
 
 # Copy license
-cp /src/LICENSE.OFL-1.1-RFN out/LICENSE.txt
+mv in/OFL.txt out/LICENSE.txt
+mv in/*.txt   out
 
 # Slash zeros
 for src in in/*.ttf; do
