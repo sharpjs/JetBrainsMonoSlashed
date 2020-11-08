@@ -67,7 +67,7 @@ for src in in/*.ttf; do
   dst="out/${DST_NAME}${src#in/$SRC_NAME}"
   dst="${dst%.ttf}.otf"
   echo "$src -> $dst"
-  pyftfeatfreeze -f calt,zero -i -S -U Slashed "$src" "$dst"
+  pyftfeatfreeze -f zero -i -S -U Slashed "$src" "$dst"
 done
 
 # -----------------------------------------------------------------------------
