@@ -34,7 +34,7 @@ apk update
 apk upgrade
 apk add zip
 python -m pip install --upgrade pip
-pip install opentype-feature-freezer
+pip install fonttools opentype-feature-freezer
 
 # -----------------------------------------------------------------------------
 # Phase 1: Acquire Input
@@ -50,6 +50,12 @@ echo "Downloading $SRC_URL"
 # Unpack source
 echo "Unpacking $SRC_ZIP"
 unzip -j "$SRC_ZIP" "*.ttf" "*.txt"
+
+# Add zero feature to NL fonts
+for src in *NL-*.ttf; do
+  echo "$src <- zero feature"
+  fonttools feaLib -o "$src" /src/zero.fea "$src"
+done
 
 # -----------------------------------------------------------------------------
 # Phase 2: Input -> Output
