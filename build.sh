@@ -84,9 +84,9 @@ mkdir -p /src/dist
 cd /build/out
 
 # Organize
-mkdir -p No-Ligatures #Variable
- mv "${DST_NAME}NL"*        No-Ligatures
-#mv "${DST_NAME}-Variable"* Variable
+mkdir -p No-Ligatures Variable
+mv "${DST_NAME}NL"*        No-Ligatures
+mv "${DST_NAME}"*"[wght]"* Variable
 
 # Package
 echo "Packing $DST_ZIP"
