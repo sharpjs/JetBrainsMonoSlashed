@@ -12,7 +12,7 @@
     None
 
 .NOTES
-    Copyright 2020 Subatomix Research Inc
+    Copyright 2021 Subatomix Research Inc
     SPDX-License-Identifier: Apache-2.0
 
     Licensed under the Apache License, Version 2.0 (the "License");
