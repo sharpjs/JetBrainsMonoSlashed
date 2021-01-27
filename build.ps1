@@ -38,7 +38,7 @@ Set-StrictMode -Version Latest
 
 # Run remainder of build in an ephemeral Docker container
 & docker run -t --rm        `
-    -e VERSION=2.221        `
+    -e VERSION=2.225        `
     -v ${PSScriptRoot}:/src `
     python:alpine           `
     /src/build.sh
