@@ -12,7 +12,7 @@
     None
 
 .NOTES
-    Copyright 2021 Subatomix Research Inc
+    Copyright 2023 Subatomix Research Inc
     SPDX-License-Identifier: Apache-2.0
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,13 +32,13 @@
     JetBrains Mono Slashed: https://github.com/sharpjs/JetBrainsMonoSlashed
 #>
 
-#Requires -Version 5.1
+#Requires -Version 5.1 # or later
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 # Run remainder of build in an ephemeral Docker container
 & docker run -t --rm        `
-    -e VERSION=2.242        `
+    -e VERSION=2.304        `
     -v ${PSScriptRoot}:/src `
     python:alpine           `
     /src/build.sh
