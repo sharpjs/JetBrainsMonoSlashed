@@ -19,9 +19,23 @@ JetBrains Mono is developed [on GitHub](https://github.com/JetBrains/JetBrainsMo
 
 ## Building
 
-- Install Docker.
-- Install PowerShell 5.1 or later.
-- Run the `build.ps1` script.
+A working `docker` command is required.
+
+If you have PowerShell 5.1 or later, just run the `build.ps1` script.
+This should work on all major platforms.
+
+Alternatively, you can run the containerized build directly.  In `sh`, `bash`,
+`zsh`, etc., the command is:
+
+```sh
+docker run -t --rm -e VERSION=2.304 -v "$PWD:/src" python:alpine /src/build.sh
+```
+
+In PowerShell, the command is:
+
+```sh
+docker run -t --rm -e VERSION=2.304 -v ${PWD}:/src python:alpine /src/build.sh
+```
 
 ## License
 
